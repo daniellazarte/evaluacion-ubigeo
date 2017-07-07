@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ejercicio Ubigeo - Daniel Lazarte / daniellazarte.github.io</title>
+    <style type="text/css">
+    body{
+       font-family: Arial, Helvetica, sans-serif;
+    }
+    h1{
+      font-size: 1.3em;
+
+    }
+
+      .divTable
+      {
+          display: table;
+          width: 40%;
+      }
+
+      .divTableRow
+      {
+          display: table-row;
+      }
+
+      .divTableCell
+      {
+          border: 0px solid #999999;
+          display: table-cell;
+          padding: 3px 10px;
+          margin: 20px;
+      }
+      select{
+        font-size: 0.8em;
+        border: 1px dashed #CACACA;
+        padding: 5px;
+      }
+  </style>
+  </head>
+  <body>
+      <h1>Lista de Ubigeo - <a href='https://daniellazarte.github.io' target="_blank">GitHub Profile</a></h1>
+      <div class="divTable">
+
+          <div class="divTableRow">
+              <div class="divTableCell">
+                  Departamento:
+              </div>
+              <div class="divTableCell">
+                  <select name="selDepartamento" id="selDepartamento">
+                  </select>
+              </div>
+          </div>
+          <div class="divTableRow">
+              <div class="divTableCell">
+                  Provincia:
+              </div>
+              <div class="divTableCell">
+                  <select name="selProvincia" id="selProvincia">
+                  </select>
+              </div>
+          </div>
+          <div class="divTableRow">
+              <div class="divTableCell">
+                  Distrito:
+              </div>
+              <div class="divTableCell">
+                  <select name="selDistrito" id="selDistrito">
+                  </select>
+              </div>
+          </div>
+      </div>
+  </body>
+  <script type="text/javascript" src="jquery-1.4.1.min.js"></script>
+  <script type="text/javascript" src="ubigeo.js"></script>
+
+ </body>
+</html>
